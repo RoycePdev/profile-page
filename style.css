@@ -7,11 +7,15 @@
   font-style: normal;
 }
 
+@import url('https://fonts/googleapis.com/css2?family=Source+sans+Pro:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
 }
+
 body {
   height: 400vh;
 }
@@ -39,6 +43,23 @@ header {
   opacity: .8;
   color: hsl(118, 100%, 50%);
 }
+
+.firstHeadline {
+  color: #ffeb3b;
+  font-weight: 600;
+  font-size: 16em;
+  text-shadow: 0 0 10px #ff8c3b,
+  0 0 40px #ff8c3b,
+  0 0 80px #ff8c3b,
+  0 0 160px #ff8c3b,
+  0 0 120px #ff8c3b;
+}
+
+.fireSvg {
+  height: 0;
+  width: 0;
+}
+
 
 .headline:before {
   display: block;
@@ -162,6 +183,10 @@ section {
   left: 190px;
 }
 
+.fire-text {
+  filter: url(#fire)
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0
@@ -169,4 +194,11 @@ section {
   100% {
     opacity: 1;
   }
+}
+
+.svgContainer {
+  position: fixed;
+  top: 265px;
+  left: 200px;
+  z-index: 5;
 }

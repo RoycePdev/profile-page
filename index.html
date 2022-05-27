@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="./fonts/stylesheet.css">
-  <script defer src="script.js"></script>
-</head>
-<body class="mainContainer">
-
-  
-  <section>
-    <header>
-      <div class="headingContainer">
-        <h1 class="headline">Brian Schafer</h1>
-        <h3 class="subHeadline"> WEB3 developer</h3>
-      </div>
-    </header>
-    <div class="leftEye"></div>
-    <div class="rightEye"></div>
-    <img class="skull" src="../images/skull.png">
-    <img class="frontCloud s1 a" src="../images/cloud2.png">
-    <img class="middleCloud s1 a" src="../images/cloud1.png">
-    <img class="backCloud s1 a" src="../images/cloud3.png">
-    <img class="frontCloud s1 b" src="../images/cloud2.png">
-    <img class="middleCloud s1 b" src="../images/cloud1.png">
-    <img class="backCloud s1 b" src="../images/cloud3.png">
-  </section>
-  <section>
-    <img class="frontCloud s1 a" src="../images/cloud2.png">
-    <img class="middleCloud s1 a" src="../images/cloud1.png">
-    <img class="backCloud s1 a" src="../images/cloud3.png">
-    <img class="frontCloud s1 b" src="../images/cloud2.png">
-    <img class="middleCloud s1 b" src="../images/cloud1.png">
-    <img class="backCloud s1 b" src="../images/cloud3.png">
-  </section>
-  <section>
-    <img class="frontCloud s1 a" src="../images/cloud2.png">
-    <img class="middleCloud s1 a" src="../images/cloud1.png">
-    <img class="frontCloud s1 b" src="../images/cloud2.png">
-    <img class="middleCloud s1 b" src="../images/cloud1.png">
-  </section>
-  <section>
-    <img class="frontCloud s1 a" src="../images/cloud2.png">
-    <img class="middleCloud s1 a" src="../images/cloud1.png">
-    <img class="frontCloud s1 b" src="../images/cloud2.png">
-    <img class="middleCloud s1 b" src="../images/cloud1.png">
-  </section>
-  <section>
-    <img class="frontCloud s1 a" src="../images/cloud2.png">
-    <img class="frontCloud s1 b" src="../images/cloud2.png">
-  </section>
-  <section>
-    <img class="frontCloud s1 a" src="../images/cloud2.png">
-    <img class="frontCloud s1 b" src="../images/cloud2.png">
-  </section>
-  <section>
-    <img class="frontCloud s1 a" src="../images/cloud2.png">
-    <img class="frontCloud s1 b" src="../images/cloud2.png">
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body class="mainContainer">
+    <section>
+      <header>
+        <div class="headingContainer">
+          <h1 class="headline">Brian Schafer</h1>
+          <h3 class="subHeadline">WEB3 developer</h3>
+        </div>
+      </header>
+      <div class="leftEye"></div>
+      <div class="rightEye"></div>
+      <img class="skull" src="../images/skull.png" />
+      <img class="frontCloud s1 a" src="../images/cloud2.png" />
+      <img class="middleCloud s1 a" src="../images/cloud1.png" />
+      <img class="backCloud s1 a" src="../images/cloud3.png" />
+      <img class="frontCloud s1 b" src="../images/cloud2.png" />
+      <img class="middleCloud s1 b" src="../images/cloud1.png" />
+      <img class="backCloud s1 b" src="../images/cloud3.png" />
+    </section>
+    <div class="fire-text">
+      <h2 class="firstHeadline">Web 3</h2>
+    </div>
+    <svg>
+      <filter id="fire">
+        <feTurbulence id="turbulance" baseFrequency="0.1 0.1" numOctaves="2" seed="3">
+          <animate attributeName="baseFrequency" dur="5s" values="0.1 0.1;0.12 0.2" repeatCount="indefinite"></animate>
+        </feTurbulence>
+        <feDisplacementMap in="SourceGraphic" scale ="30"></feDisplacementMap>
+      </filter>
+    </svg>
+    <section>
+      <img class="frontCloud s1 a" src="../images/cloud2.png" />
+      <img class="middleCloud s1 a" src="../images/cloud1.png" />
+      <img class="backCloud s1 a" src="../images/cloud3.png" />
+      <img class="frontCloud s1 b" src="../images/cloud2.png" />
+      <img class="middleCloud s1 b" src="../images/cloud1.png" />
+      <img class="backCloud s1 b" src="../images/cloud3.png" />
+    </section>
+    <section>
+      <img class="frontCloud s1 a" src="../images/cloud2.png" />
+      <img class="middleCloud s1 a" src="../images/cloud1.png" />
+      <img class="frontCloud s1 b" src="../images/cloud2.png" />
+      <img class="middleCloud s1 b" src="../images/cloud1.png" />
+    </section>
+    <section>
+      <img class="frontCloud s1 a" src="../images/cloud2.png" />
+      <img class="middleCloud s1 a" src="../images/cloud1.png" />
+      <img class="frontCloud s1 b" src="../images/cloud2.png" />
+      <img class="middleCloud s1 b" src="../images/cloud1.png" />
+    </section>
+    <section>
+      <img class="frontCloud s1 a" src="../images/cloud2.png" />
+      <img class="frontCloud s1 b" src="../images/cloud2.png" />
+    </section>
+    <section>
+      <img class="frontCloud s1 a" src="../images/cloud2.png" />
+      <img class="frontCloud s1 b" src="../images/cloud2.png" />
+    </section>
+    <section>
+      <img class="frontCloud s1 a" src="../images/cloud2.png" />
+      <img class="frontCloud s1 b" src="../images/cloud2.png" />
+    </section>
+  </body>
 </html>
